@@ -1,0 +1,130 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Assignment - WeatherWatch - App Component componentDidMount() loads default data from API 1`] = `
+<DocumentFragment>
+  <div
+    class="weather-app"
+  >
+    <h1>
+      WeatherWatch
+    </h1>
+    <div
+      class="input-box"
+    >
+      <span
+        class="label"
+      >
+        LOCATION
+      </span>
+      <input
+        type="text"
+      />
+    </div>
+    <div
+      class="set-units"
+    >
+      <label>
+        UNITS
+      </label>
+      <select>
+        <option
+          value="C"
+        >
+          Celsius
+        </option>
+        <option
+          value="F"
+        >
+          Fahrenheit
+        </option>
+      </select>
+    </div>
+    <div
+      class="weather-report"
+    >
+      <h2
+        class="big"
+      >
+        Bengaluru
+      </h2>
+      <h3
+        class="conditions"
+      >
+        SCATTERED CLOUDS | FEELS LIKE 35°C
+      </h3>
+      <img
+        alt="SCATTERED CLOUDS"
+        src="http://openweathermap.org/img/wn/03d@2x.png"
+      />
+      <div
+        class="temperature"
+      >
+        <div>
+          <p>
+            CURRENT TEMPERATURE
+          </p>
+          <h2>
+            32°C
+          </h2>
+        </div>
+        <div>
+          <p>
+            MAXIMUM TEMPERATURE
+          </p>
+          <h2>
+            34°C
+          </h2>
+        </div>
+        <div>
+          <p>
+            MINIMUM TEMPERATURE
+          </p>
+          <h2>
+            28°C
+          </h2>
+        </div>
+      </div>
+      <div
+        class="wind"
+      >
+        <div>
+          <p>
+            WIND SPEED
+          </p>
+          <h2>
+            2.8 meter/sec
+          </h2>
+        </div>
+        <div>
+          <p>
+            WIND DIRECTION
+          </p>
+          <h2>
+            240 degrees
+          </h2>
+        </div>
+      </div>
+      <div
+        class="pressure"
+      >
+        <div>
+          <p>
+            PRESSURE
+          </p>
+          <h2>
+            1016 hPa
+          </h2>
+        </div>
+        <div>
+          <p>
+            HUMIDITY
+          </p>
+          <h2>
+            45 %
+          </h2>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

@@ -1,0 +1,19 @@
+type: editor
+showTerminals: false
+showExplorer: true
+yourResultPort: 3000
+yourResultPath: ""
+answerPort: 3033
+answerPath: ""
+openFiles:
+  - /src/App.js
+terminals:
+  terminal1:
+    - name: Terminal
+    - commands:
+        - yarn start
+answerCommands:
+  - yarn build
+  - pm2 serve build/ 3033 --name '2-weather-app' --spa --node-args='--expose-gc'
+  - pm2 save
+  - pm2 startup
